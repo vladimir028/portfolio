@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background: black;
+    background-image: url(imgs/logo.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 0%;
+    background-position-y: -6%;
+    background-size: 26%;
+    /* background-image: linear-gradient(rgba(4,9,30, 0.7), rgb(4, 9, 30, 0.7)), url(backround.jpg); */
+    /* background: black; */
+    /* background-image: url(imgs/logo.jpg); */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* position: relative; */
+}
+.header1{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30, 0.7), rgb(4, 9, 30, 0.7)), url(hosts_slika.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header2{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30, 0.7), rgb(4, 9, 30, 0.7)), url(imgs/bae.jpg);
+    background-position: center;
+    background-size: 80%;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scan{
+    background: black;
+    color: white;
+    /*border: 1px solid white;*/
+    padding-top: 10%;
+    /*background-image: url("imgs/scan.jpg") ;*/
+}
+.scan p{
+    /*margin-left: 50%;*/
+    text-align: center;
+}
+.picscan{
+    /* border: 1px solid yellow; */
+    padding: 14%;
+    background: url(imgs/scan.jpg)no-repeat;
+    background-size: 35%;
+    background-position: center;
+    margin-top: -16%;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    margin-top: 2%;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #e3dbdb;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 50%;
+    color: #fff;
+    margin: auto;
+    margin-top: 10%;
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*right: 50%;*/
+    /*bottom: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40 px;
+    font-size: 14px ;
+    color: #fff;
+}
+.social_media{
+    padding: 5%;
+    width: 15%;
+    float: left;
+    /*border: 1px solid white;*/
+}
+.social_media h3{
+    color: white;
+}
+.social_media ul a{
+
+    color: white;
+}
+.social_media ul .ig{
+    list-style: url("imgs/ig_temp.webp");
+}
+.social_media ul .fb{
+    list-style: url("imgs/fb_temp.png");
+}
+.social_media ul .mail{
+    list-style: url("imgs/mail_temp.webp");
+}
+form{
+    /*border: 1px solid white;*/
+    width: 18%;
+    margin-left: 2%;
+    margin-top: 19%;
+    color: white;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    align-items: stretch;
+    /*justify-content: space-evenly;*/
+}
+.cdg{
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin-top: 5%;
+}
+.cdg h1{
+    padding-bottom: 55%;
+    background: url(imgs/comme_des_garcons.jpg)no-repeat;
+    background-size: 40%;
+    background-position: bottom;
+}
+.ksg{
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin-top: 5%;
+}
+.ksg h1{
+    padding-bottom: 55%;
+    background: url(imgs/kids_see_ghosts.jpg)no-repeat;
+    background-size: 40%;
+    background-position: bottom;
+}
+.ksg h2{
+    padding-bottom: 55%;
+    color: transparent;
+    background: url(imgs/kids_see_ghosts1.jpg)no-repeat;
+    background-size: 40%;
+    background-position: left;
+}
+.ksg h3{
+    padding-bottom: 55%;
+    color: transparent;
+    background: url(imgs/kids_see_ghosts_box.jpg)no-repeat;
+    background-size: 40%;
+    background-position: right;
+    margin-top: -56%;
+    /* background-position-y: -100%; */
+}
+.dior{
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin-top: 5%;
+}
+.dior h1{
+    padding-bottom: 45%;
+    background: url(imgs/dior.jpg)no-repeat;
+    background-size: 60%;
+    background-position: bottom;
+}
+.dior h2{
+    padding-bottom: 55%;
+    color: transparent;
+    background: url(imgs/dior_box.jpg)no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+div.dior > p{
+    margin-top: -5%;
+}
+.drake{
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin-top: 5%;
+    /*margin-top: -13%;*/
+}
+.drake h1{
+    padding-bottom: 52%;
+    background: url(imgs/iyrtitl_drake1.jpg)no-repeat;
+    background-size: 60%;
+    background-position: bottom;
+}
+.drake h2{
+    padding-bottom: 55%;
+    color: transparent;
+    background: url(imgs/iyrtitl_drake_box.jpg)no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+div.drake > p{
+    margin-top: -5%;
+}
+.kaws{
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin-top: 5%;
+}
+.kaws h1{
+    padding-bottom: 70%;
+    background: url(imgs/kaws.jpg)no-repeat;
+    background-size: 40%;
+    background-position: bottom;
+}
+.wutang{
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin-top: 5%;
+}
+.wutang h1{
+    padding-bottom: 41%;
+    background: url(imgs/wutang.jpg)no-repeat;
+    background-size: 60%;
+    background-position: bottom;
+}
+.wutang h2{
+    padding-bottom: 55%;
+    color: transparent;
+    background: url(imgs/wutang1.jpg)no-repeat;
+    background-size: 55%;
+    background-position: left;
+}
+.wutang h3{
+    padding-bottom: 55%;
+    color: transparent;
+    background: url(imgs/wutang3.jpg)no-repeat;
+    background-size: 41%;
+    background-position: right;
+    margin-top: -56%;
+    /* background-position-y: -100%; */
+}
+div.wutang > p{
+    margin-top: -5%;
+}
+.migos{
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin-top: 5%;
+    /*margin-top: -13%;*/
+}
+.migos h1{
+    padding-bottom: 42%;
+    background: url(imgs/migos.jpg)no-repeat;
+    background-size: 60%;
+    background-position: bottom;
+}
+.migos h2{
+    padding-bottom: 84%;
+    color: transparent;
+    background: url(imgs/migos1.jpg)no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+div.migos > p{
+    margin-top: -5%;
+}
+.cole{
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin-top: 5%;
+}
+.cole h1{
+    padding-bottom: 74%;
+    background: url(imgs/j_cole.jpg)no-repeat;
+    background-size: 55%;
+    background-position: bottom;
+}
+.tatoo{
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin-top: 5%;
+    /*margin-top: -13%;*/
+}
+.tatoo h1{
+    padding-bottom: 74%;
+    background: url(imgs/tatoo.jpg)no-repeat;
+    background-size: 55%;
+    background-position: bottom;
+}
+.tatoo h2{
+    padding-bottom: 80%;
+    color: transparent;
+    background: url(imgs/tatoo1.jpg)no-repeat;
+    background-size: 55%;
+    background-position: center;
+}
+div.tatoo > p{
+    margin-top: -3%;
+}
